@@ -7,6 +7,10 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 5%;
   min-height: 100%;
 }
+header{
+  background: #000000 "/images/space.png" 100% 100% no-repeat;
+}
+
