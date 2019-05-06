@@ -7,10 +7,40 @@ html {
 }
 
 body {
-  margin: 5%;
+  margin: 20%;
   min-height: 100%;
+  /* background-color: black; */
 }
 header{
-  background: #000000 "/images/space.png" 100% 100% no-repeat;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  background-image: url("/images/space.png");
+  background-position: 100% 100%;
+  margin: 5%;
+  
 }
-
+.profile-pic>ul{
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  list-style: none;
+}
+header>ul{
+  display: flex;
+  justify-content: auto;
+  align-content: center;
+}
+.react-background{
+  background-position: top;
+  height: 20%
+ 
+}
+.react-text{
+  background-color: #ffffff;
+  
+}
+.buzz {
+  background-image: url("/images/code.png");
+  background-position: center center;
+}
